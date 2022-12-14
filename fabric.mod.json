@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "incendium",
+  "version": "5.1.4",
+  "name": "Incendium",
+  "description": "Incendium 5.1.$ for 1.19.x",
+  "authors": [
+    "Starmute, catter, and rx"
+  ],
+  "contact": {
+  },
+  "license": "Stardust Labs License",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.12.7",
+    "minecraft": ">=1.19"
+  }
+}
