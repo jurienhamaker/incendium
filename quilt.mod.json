@@ -1,0 +1,39 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "net.stardustlabs",
+        "id": "incendium",
+        "version": "5.3.4",
+        "metadata": {
+            "name": "Incendium",
+            "description": "Incendium ~ Nether Expansion (v5.3.4 for 1.20-1.20.4)",
+            "contributors": {
+                "Starmute": "Owner"
+            },
+            "contact": {
+                "homepage": "https://www.stardustlabs.net/",
+                "issues": "https://github.com/Stardust-Labs-MC/Incendium/issues",
+                "sources": "https://github.com/Stardust-Labs-MC/Incendium"
+            },
+            "license": {
+                "name": "Stardust Labs License",
+                "id": "SLL",
+                "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt",
+                "description": "The official license for all Stardust Labs projects"
+            },
+            "icon": "pack.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "depends": [
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            },
+            {
+                "id": "quilt_resource_loader",
+                "versions": "*",
+                "unless": "fabric-resource-loader-v0"
+            }
+        ]
+    }
+}

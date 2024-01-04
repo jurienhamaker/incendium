@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "incendium",
+    "version": "5.3.4",
+    "name": "Incendium",
+    "description": "Incendium ~ Nether Expansion (v5.3.4 for 1.20-1.20.4)",
+    "authors": [
+        "Starmute"
+    ],
+    "contact": {
+        "homepage": "https://www.stardustlabs.net/",
+        "sources": "https://github.com/Stardust-Labs-MC/Incendium",
+        "issues": "https://github.com/Stardust-Labs-MC/Incendium/issues",
+        "discord": "https://discord.gg/zweCAdd"
+    },
+    "license": "Stardust Labs License",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.12.7",
+        "fabric-api-base": "*",
+        "minecraft": ">=1.20"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.discord": "https://discord.gg/stardustlabs"
+            }
+        }
+    }
+}
